@@ -11,11 +11,4 @@ const vuetify = createVuetify({
 	directives,
 })
 
-import vuEPG, { useVuEPG } from "vuepg";
-const epg = useVuEPG();
-epg.setConfig({
-	debug: true,
-})
-epg.setActionPreventDefault("BACK", false)
-
-createApp(App).use(vuetify).use(vuEPG).mount('#app')
+createApp(App).use(vuetify).mount('#app')
