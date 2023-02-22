@@ -34,7 +34,7 @@ const parserList: Array<ParsePlatform> = [
 
 const platformList = [
 	{
-		logo: './tencent.svg',
+		logo: 'tencent.svg',
 		name: "腾讯视频",
 		url: "https://v.qq.com/x/search/?q="
 	},
@@ -49,7 +49,7 @@ const platformList = [
 		url: 'https://www.iq.com/search?query='
 	},
 	{
-		logo: './youku.svg',
+		logo: 'youku.svg',
 		name: "优酷",
 		url: "https://search.youku.com/search_video?keyword="
 	},
