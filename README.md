@@ -1,18 +1,20 @@
-# Vue 3 + TypeScript + Vite
+# 全网视频解析
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+[![Netlify Status](https://api.netlify.com/api/v1/badges/50862160-9ec8-4dc2-a36b-61aec7d49cbc/deploy-status)](https://app.netlify.com/sites/parsevideos/deploys)
 
-## Recommended IDE Setup
+## 使用方法
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+1. 在第一个输入框输入关键字，点击下方视频网站进行搜索。
+2. 打开视频播放页，复制地址。
+3. 将地址粘贴到下方输入框，点击下方的解析平台，即可开始播放。
+4. 如果一个平台解析失败，可尝试下其它的。
 
-## Type Support For `.vue` Imports in TS
+## 工具链和技术栈
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin) to make the TypeScript language service aware of `.vue` types.
-
-If the standalone TypeScript plugin doesn't feel fast enough to you, Volar has also implemented a [Take Over Mode](https://github.com/johnsoncodehk/volar/discussions/471#discussioncomment-1361669) that is more performant. You can enable it by the following steps:
-
-1. Disable the built-in TypeScript Extension
-   1. Run `Extensions: Show Built-in Extensions` from VSCode's command palette
-   2. Find `TypeScript and JavaScript Language Features`, right click and select `Disable (Workspace)`
-2. Reload the VSCode window by running `Developer: Reload Window` from the command palette.
+* Vue3
+* Vuetify 
+* Vite
+* Vite-PWA
+* pnpm
+* Typescript
+* Netlify
