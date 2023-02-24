@@ -100,7 +100,7 @@ function readClipboard(): void {
 		<v-row dense>
 			<v-col v-for="item of platformList" :key="item.name" cols="6" sm="4" md="2">
 				<v-card @click="openUrl(item.url + encodeURIComponent(key))">
-					<v-img :src="item.logo" height="120px" contain class="logo"></v-img>
+					<v-img :src="item.logo" height="90px" contain class="logo"></v-img>
 					<v-card-title>
 						{{ item.name }}
 					</v-card-title>
