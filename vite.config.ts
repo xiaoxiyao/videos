@@ -15,7 +15,7 @@ export default defineConfig({
 				description: '解析全网视频免费播放',
 				icons: [{
 					src: 'favicon.svg',
-					sizes: '48x48 72x72 96x96 128x128 256x256',
+					sizes: 'any',
 					type: 'image/svg+xml'
 				}],
 				background_color: '#FFFFFF',
